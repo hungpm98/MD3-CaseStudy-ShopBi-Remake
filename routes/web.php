@@ -14,5 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    return view('layoutfrontend.master');
+});
+
+Route::get('shop', function () {
     return view('layoutbackend.master');
 });
+
+
